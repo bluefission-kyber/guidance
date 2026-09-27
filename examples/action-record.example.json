@@ -1,0 +1,12 @@
+{
+  "action": "prepare a documentation pull request",
+  "owner": "repository maintainer",
+  "scope": "one documentation branch",
+  "target": "the reviewed pull request head",
+  "risk": "reversible repository change",
+  "evidence": "linked diff and passing documentation checks",
+  "reviewer": "named eligible reviewer",
+  "approval": "pending explicit landing confirmation",
+  "pause": "stop before landing when checks or review change",
+  "recovery": "revert through the repository's reviewed process"
+}
